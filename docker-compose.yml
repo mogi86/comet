@@ -1,0 +1,9 @@
+version: "2"
+services:
+  nginx:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/code
+    container_name: comet_nginx
