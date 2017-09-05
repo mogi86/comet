@@ -7,3 +7,5 @@ services:
     volumes:
       - ./:/code
     container_name: comet_nginx
+    domainname: foo.com
+    hostname: foo
